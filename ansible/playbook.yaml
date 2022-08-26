@@ -1,0 +1,7 @@
+---
+- name: Deploy OpenVPN
+  hosts: vpn 
+  become: true 
+  
+  roles:
+    - ansible-role-openvpn  
